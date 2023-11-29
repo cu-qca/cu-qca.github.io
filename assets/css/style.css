@@ -590,26 +590,6 @@ section {
   padding: 120px 0;
 }
 
-.about .quote-icon-left,
-.about .quote-icon-right {
-  color: #7a33ff; /* Or any purple color you prefer */
-  font-size: 40px; /* Or the size you prefer */
-}
-
-.about .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.about .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
