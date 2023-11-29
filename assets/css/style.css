@@ -438,11 +438,11 @@ h6 {
 }
 
 #hero h1 {
-  margin: 0;
-  font-size: 52px;
-  font-weight: 700;
-  line-height: 64px;
-  color: #fff;
+  font-size: 10vw; /* This will make the font size responsive to the width of the viewport */
+  width: 100%; /* This will make the text span the full width of the container */
+  text-align: center; /* This will center the text */
+  line-height: 1.2; /* Adjust line height as needed */
+  word-wrap: break-word; /* This will ensure the text wraps to prevent overflow */
 }
 
 #hero h2 {
@@ -505,8 +505,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 26px;
-    line-height: 36px;
+    font-size: 6vw; /* Smaller font size for smaller screens */
   }
 
   #hero h2 {
