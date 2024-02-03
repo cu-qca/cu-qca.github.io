@@ -264,6 +264,19 @@
     })
   });
 
+  /** Listserv Email Submittion */
+  window.addEventListener('load', () => {
+  const listservSubmitButton = document.getElementById('listservSubmit');
+  listservSubmitButton.addEventListener('click', function() {
+
+    // Construct the Google Form URL with the field values
+    const googleFormUrl = 'https://docs.google.com/forms/d/1vkp4K5csbgTrsey3MoCF7EzjN0mLqcejKxnFA0AuSMI/'
+    // Open the Google Form in a new tab
+    window.open(googleFormUrl, '_blank');
+    })
+  });
+  
+
   /**
    * Initiate Pure Counter 
    */
